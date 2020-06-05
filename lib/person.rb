@@ -26,20 +26,12 @@ def take_bath
     return "♪ Rub-a-dub just relaxing in the tub ♫"
 end
 
-def happy?
-    if @happiness > 7
-        true
-    else
-        false
-    end
+def happy? 
+   @happiness > 7 ? true : false
 end
 
 def clean?
-    if @hygiene > 7
-        true
-    else
-        false
-    end
+    @hygiene > 7 ? true : false
 end
 
 def get_paid(salary)
